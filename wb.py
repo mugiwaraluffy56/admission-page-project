@@ -139,7 +139,7 @@ predicted_value = slopes(area, points)
 plot_regression_line(points)
 print(f"Predicted value for area {area} : {round(predicted_value,4)}")
 
-# #points which are not in data set
+#same points
 new_points = [
     (1041, 143.24), (2245, 336.02), (3817, 573.91), (2273, 344.88), (3799, 574.89),
     (713, 108.51), (3126, 466.91), (3226, 483.61), (2030, 322.57), (2303, 345.96),
